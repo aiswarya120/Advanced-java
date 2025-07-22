@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <style>
+        body {
+            font-family: Arial;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background-color:pink;
+            padding: 30px 30px;
+            border-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            width: 300px;
+        }
+        input[type="number"], input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form action="add " method="get" class="card">
+        <h2>Add Two Numbers</h2>
+        <input type="number" name="num1" placeholder="Enter first number" required>
+        <input type="number" name="num2" placeholder="Enter second number" required>
+        <input type="submit" value="Add and Square">
+    </form>
+</body>
+</html>
